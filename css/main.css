@@ -30,9 +30,10 @@ p {
     font-size: 25px;
 }
 
-
-
-
+a {
+  color: black;
+  text-decoration: none; /* no underline */
+}
 
 
 
@@ -44,6 +45,7 @@ ABOUT
     background-color: #D95538;
 }
 
+
 /************************************************
 EDUCATION
 ************************************************/
@@ -52,7 +54,27 @@ EDUCATION
     background-color: #FBCF34;
 }
 
+.wrapper {
+    width: 100%;
+    height: auto;
+    display: flex;
+    max-width: 1100px;
+    padding-top: 80px;
+    padding-left: 80px;
+}
+ 
+#box1, #box2, #box3, #box4 {
+    display: inline-block;
+    width: 45%;
+}
 
+#box1, #box3 {
+    padding-left: 40px;    
+}
+
+#box2, #box4, p {
+    padding-right: 40px;    
+}
 /************************************************
 PROJECTS
 ************************************************/
