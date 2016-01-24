@@ -3,11 +3,20 @@ start
 ************************************************/
 
 .shapes {
-  margin: 0 auto;
-      text-align: left;
-      width: 1000px;
+        padding-top: 25%;
+        margin-bottom: 25%;
+      text-align: center;
+      width: 100%;
 }
 
+.shapes a{
+    padding: 5px;
+}
+
+.g1, .g2, .g3 { transition: all .2s ease-in-out; }
+.g1:hover, .g2:hover,.g3:hover { transform: scale(1.1); }
+
+  
 /************************************************
 GENERAL
 ************************************************/
@@ -65,7 +74,7 @@ EDUCATION
  
 #box1, #box2, #box3, #box4 {
     display: inline-block;
-    width: 45%;
+    width: 40%;
 }
 
 #box1, #box3 {
