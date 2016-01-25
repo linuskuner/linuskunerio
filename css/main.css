@@ -5,16 +5,16 @@ start
 .shapes {
         padding-top: 25%;
         margin-bottom: 25%;
-      text-align: center;
-      width: 100%;
+        text-align: center;
+        width: 100%;
 }
 
 .shapes a{
     padding: 5px;
 }
 
-.g1, .g2, .g3 { transition: all .2s ease-in-out; }
-.g1:hover, .g2:hover,.g3:hover { transform: scale(1.1); }
+.g1, .g2, .g3 { transition: all .1s ease-in-out; }
+.g1:hover, .g2:hover,.g3:hover { transform: scale(1.05); }
 
   
 /************************************************
@@ -44,6 +44,11 @@ a {
   text-decoration: none; /* no underline */
 }
 
+.back {
+    padding-left: 40px;
+    padding-top: 40px;
+}
+
 
 
 /************************************************
@@ -68,7 +73,7 @@ EDUCATION
     height: auto;
     display: flex;
     max-width: 1100px;
-    padding-top: 80px;
+    padding-top: 20px;
     padding-left: 80px;
 }
  
