@@ -60,6 +60,13 @@ a {
     position: fixed;
 }
 
+.site {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    margin-bottom: -100px;
+}
+
 .site-content {
     flex: 1;
 }
@@ -69,7 +76,7 @@ li {
     font-family: 'Roboto Slab', sans-serif;
     font-weight: 700;
     font-size: 45px;
-    padding-top: 40px;
+    padding-top: 60px;
     top: 0;
     
 }
@@ -161,22 +168,19 @@ PROJECTS
 #wrapper_footer {
     max-width: 100%;
     display: flex;
+    height: auto;
 }
 
 #wrapper_footer_start {
     max-width: 100%;
-    bottom: 0;
 }
 
 footer {
-    font-size: 0.75em;
     text-align: center;
     width: 85%;
     border-top: 2px solid black;
     margin: auto;
     padding-top: 20px;
-    padding-bottom: 20px;
-    
 }
 
 footer a{
@@ -194,8 +198,6 @@ footer a{
 .impressum {
     float: right;
 }
-
-
 
 /********************************************
   Media Queries
