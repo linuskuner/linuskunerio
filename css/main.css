@@ -109,10 +109,6 @@ ABOUT
     max-width: 400px;
     padding-top: 20px;
     padding-left: 100px;
-    display: flex;
-    min-height: 100vh;
-    flex-direction: column;
-    margin-bottom: -100px;
 }
 
 /************************************************
