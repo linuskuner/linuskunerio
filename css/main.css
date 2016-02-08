@@ -71,6 +71,11 @@ a {
     flex: 1;
 }
 
+.wrapper {
+    padding-top: 20px;
+    margin: 0 5%;
+}
+    
 li {
     list-style: none;
     font-family: 'Roboto Slab', sans-serif;
@@ -118,7 +123,8 @@ EDUCATION
     background-color: #FBCF34;
 }
 
-.wrapper {
+.wrapper_edu {
+    display: flex;
     padding-top: 20px;
     margin: 0 5%;
 }
@@ -154,7 +160,6 @@ PROJECTS
 *******************************************/
 
 #wrapper_footer {
-    width: 100%;
     margin: 0 5%;
 }
 
@@ -164,7 +169,6 @@ PROJECTS
 
 footer {
     display: flex;
-    width: 85%;
     border-top: 2px solid black;
     margin: auto;
     padding-top: 20px;
@@ -179,6 +183,7 @@ footer a{
     font-size: 15px;
     
 }
+
 
 /********************************************
   Media Queries
@@ -199,10 +204,6 @@ footer a{
         margin-left: none;
     }
     
-    ul{
-        min-height: 90vh;
-    }
-    
     p {
         font-size: 17px;
     }
@@ -212,12 +213,15 @@ footer a{
         padding-top: 20px;
     }
     
+      .wrapper_edu {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
     .wrapper_about, wrapper{
         padding-top: 20px;
         padding-left: 20px;
         padding-right: 10px;
-        max-width: 3000px;
-        margin-bottom: -100px;
     }
     
     .wrapper {
@@ -226,17 +230,23 @@ footer a{
         padding-top: 0px;
         padding-right: 10px;
         display: flex;
-        flex-direction: column;
     }
+    
+    
+     #box1, #box2, #box3, #box4 {
+        width: 100%;
+    }
+    
     
     #box1 {
         margin-top: 10px;
-        height
     }
     
     #box4 {
         margin-bottom: 20px;
+    
     }
+    
 
     
 }
