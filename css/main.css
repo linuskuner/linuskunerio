@@ -35,12 +35,14 @@ h1{
     font-weight: 700;
     font-size: 38px;
     padding-top: 40px;
+    margin-bottom: 20px;
 }
 
 h2 {
     font-family: 'Roboto Slab', sans-serif;
     font-weight: 700;
     font-size: 28px;
+    margin-bottom: 20px;
 }
 
 p {
@@ -113,6 +115,7 @@ ABOUT
     max-width: 400px;
     padding-top: 20px;
     padding-left: 100px;
+    padding-top: 60px;
 }
 
 /************************************************
@@ -125,8 +128,9 @@ EDUCATION
 
 .wrapper_edu {
     display: flex;
-    padding-top: 20px;
+    padding-top: 60px;
     margin: 0 5%;
+    
 }
  
 #box1, #box2, #box3, #box4 {
@@ -150,6 +154,7 @@ PROJECTS
     height: 100%;
     max-width: 1000px;
     margin-left: 100px;
+    padding-top: 60px;
 
 }
 
@@ -198,6 +203,10 @@ footer a{
         padding-top: 20px;
     }
     
+    h2 {
+        font-size: 32px;
+    }
+    
     li {
         font-size: 38px;
         padding-top: 20px;
@@ -210,16 +219,17 @@ footer a{
     
     .back {
         padding-left: 20px;
-        padding-top: 20px;
+        padding-top: 25px;
     }
     
       .wrapper_edu {
-        display: flex;
-        flex-wrap: wrap;
+        padding-top: 25px;
+        padding-left: 2px;
+    
     }
     
     .wrapper_about, wrapper{
-        padding-top: 20px;
+        padding-top: 40px;
         padding-left: 20px;
         padding-right: 10px;
     }
