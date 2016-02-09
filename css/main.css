@@ -60,6 +60,7 @@ a {
 .wrapper {
     padding-top: 5%;
     margin: 0 5%;
+    max-width: 100%
 }
 
 
@@ -220,6 +221,7 @@ footer a{
     }
     
       .wrapper_edu {
+          display: flex;
         padding-top: 5%;
         padding-left: 2px;
         padding-right: 10px;
