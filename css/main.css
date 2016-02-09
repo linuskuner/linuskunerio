@@ -7,7 +7,7 @@ h1{
     font-family: 'Roboto Slab', sans-serif;
     font-weight: 700;
     font-size: 38px;
-    padding-top: 40px;
+    padding-top: 10%;
     margin-bottom: 20px;
 }
 
@@ -22,6 +22,11 @@ p {
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
     font-size: 18px;
+    line-height: 1.4;
+}
+
+b {
+    font-weight: 700;
 }
 
 a {
@@ -30,8 +35,7 @@ a {
 }
 
 .back {
-    padding-left: 40px;
-    padding-top: 40px;
+
     position: fixed;
 }
 
@@ -97,9 +101,8 @@ ABOUT
 }
 
 .wrapper_about {
-    max-width: 400px;
-    padding-top: 60px;
-    margin: 0 5%
+    padding-top: 80px;
+    margin: 0 5%;
 }
 
 /************************************************
@@ -124,6 +127,10 @@ EDUCATION
 
 #box1, #box2 {
     padding-top: 20px;
+}
+
+#box3, #box4 {
+    padding-bottom:20px;
 }
 
 /************************************************
@@ -184,7 +191,7 @@ footer a{
     
     h1 {
         font-size: 32px;
-        padding-top: 20px;
+        padding-top: 10%;
     }
     
     h2 {
@@ -201,19 +208,19 @@ footer a{
     }
     
     .back {
-        padding-left: 20px;
-        padding-top: 25px;
+        padding-top: 5px;
     }
     
       .wrapper_edu {
         padding-top: 25px;
         padding-left: 2px;
+        padding-right: 10px;
     
     }
     
     .wrapper_about{
-        padding-top: 40px;
-        padding-left: 20px;
+        padding-top: 25px;
+        padding-left: 2px;
         padding-right: 10px;
     }
     
@@ -229,12 +236,6 @@ footer a{
      #box1, #box2, #box3, #box4 {
         width: 100%;
         margin-bottom: 20px;
-    }
-    
-    
-    
-    #box1, #box2 {
-        margin-top: 10px;
     }
     
     #box4 {
