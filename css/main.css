@@ -103,7 +103,6 @@ ABOUT
     max-width: 400px;
     padding-top: 5%;
     margin: 0 5%;
-    width: 100%;
 }
 
 /************************************************
@@ -123,6 +122,7 @@ EDUCATION
 
 .text {
     padding-top: 40px;
+    max-width: 100%;
 }
 
 .box {
@@ -219,6 +219,7 @@ footer a{
         width: 100%;
         flex-direction: column;
         display: flex;
+        padding-top: 5%;
     }
     
       .wrapper_edu {
@@ -232,10 +233,11 @@ footer a{
     }
     
     .wrapper_about{
-        padding-top: 5%;
         padding-left: 2px;
         padding-right: 10px;
     }
+    
+
     
     .wrapper {
         padding-right: 10px;
@@ -255,6 +257,7 @@ footer a{
     #box4 {
         margin-bottom: 40px;
     }
+
 }
 
 
