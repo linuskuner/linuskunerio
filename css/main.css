@@ -17,7 +17,7 @@ h2 {
     margin-bottom: 20px;
 }
 
-p {
+p, li {
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
     font-size: 18px;
@@ -67,7 +67,7 @@ a {
 LANDINGPAGE
 ************************************************/
 
-li {
+.pages {
     list-style: none;
     font-family: 'Roboto Slab', sans-serif;
     font-weight: 700;
@@ -75,8 +75,8 @@ li {
     margin-bottom: 20px;
 }
 
-li:hover {
-    text-decoration:underline;
+.pages:hover {
+    color: black;
 }
 
 #projects_link {
@@ -152,6 +152,10 @@ PROJECTS
     margin: 0 5%;
 }
 
+.description {
+    margin-bottom: 40px;
+    max-width: 400px;
+}
 
 
 /********************************************
@@ -182,6 +186,10 @@ footer a{
     font-size: 15px;
     
 }
+
+/********************************************
+  Case-Study
+*******************************************/
 
 
 /********************************************
