@@ -145,10 +145,6 @@ PROJECTS
     background-color: #C1E7F1;
 }
 
-.link_project:hover {
-    text-decoration: underline;
-}
-
 .project {
     display: flex;
     flex-direction: row;
@@ -158,6 +154,16 @@ PROJECTS
     margin: 0 5%; 
 }
 
+.more {
+    padding-top: 20px;
+    margin-bottom: 100px;
+    text-decoration:underline;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.6;
+}
+
 .description {
     max-width: 400px;
     margin-right: 40px;
@@ -165,6 +171,10 @@ PROJECTS
 
 .descr {
     min-width: 600px;
+}
+
+.preview_text {
+    margin-bottom: 50px;
 }
 
 .logo_preview {
@@ -313,7 +323,8 @@ footer a{
     
     .description {
         min-width: 40px;
-        margin-bottom: 20px;  
+        margin-bottom: 20px;
+        max-width: none;
     }
     
     .colors, .logos, .typo {
@@ -322,6 +333,10 @@ footer a{
     
     .typo {
         margin-bottom: 70px;
+    }
+    
+    .pages {
+        margin-bottom: 0px;
     }
 }
     
@@ -358,12 +373,12 @@ footer a{
     }
     
       .wrapper_edu {
-          display: flex;
-        padding-top: 5%;
+        display: flex;
         padding-left: 2px;
         padding-right: 10px;
         flex-flow: wrap;
         flex-direction: column;
+        padding-top:   
     }
     
     .wrapper_about{
@@ -378,15 +393,19 @@ footer a{
         max-width: 100%;
         padding-top: 5%
     }
+    #box1 {
+        padding-bottom: 5%;
+    }
     
      #box1, #box2, #box3, #box4 {
         width: 100%;
-        margin-bottom: 5%;
+        margin-bottom: 10%;
     }
     
     #box4 {
         margin-bottom: 40px;
     }
+    
 }
 
 
