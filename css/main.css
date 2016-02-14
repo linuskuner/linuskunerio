@@ -32,6 +32,10 @@ a {
   text-decoration: none;
 }
 
+ul {
+    display: inline-block;
+}
+
 .back {
     position: fixed;
 }
