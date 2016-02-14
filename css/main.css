@@ -157,7 +157,6 @@ PROJECTS
 }
 
 .description {
-    margin-bottom: 100px;
     max-width: 400px;
     margin-right: 40px;
 }
@@ -225,18 +224,18 @@ footer a{
 }
 
 .logos {
-    width: 630px;
+    width: 100%;
 }
 
 .colors {
     width: 100%;
-    padding-top: 150px;
+    padding-top: 200px;
 }
 
 .typo {
     width: 100%;
-    padding-top: 150px;
-    margin-bottom: 150px;
+    padding-top: 200px;
+    margin-bottom: 200px;
 }
 
 .typeface {
@@ -258,23 +257,25 @@ footer a{
     min-width: 600px;
     display: flex;
     flex-direction: row;
-    padding-top: 150px;
+    padding-top: 200px;
 }
 
 .wrapper_info3 {
     min-width: 600px;
     display: flex;
-    padding-top: 150px;
+    flex-direction: row;
+    padding-top: 200px;
 }
 
 .image {
-      width: 630px;
-    height: 566.7;
+    width: 50%;
+    max-width: 40%;
 }
 
 .project_wrapper1 {
     display: flex;
     flex-direction: row;
+    flex-wrap: nowrap;
 }
 
 .project_wrapper3 {
