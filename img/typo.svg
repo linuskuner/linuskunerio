@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="626px" height="423px" viewBox="0 0 626 423" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.5.2 (25235) - http://www.bohemiancoding.com/sketch -->
+    <title>Group</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Desktop-HD-Copy-5" sketch:type="MSArtboardGroup" transform="translate(-74.000000, -1324.000000)">
+            <g id="Group-4" sketch:type="MSLayerGroup" transform="translate(74.000000, 1306.000000)">
+                <g id="Group" transform="translate(0.000000, 18.000000)">
+                    <rect id="Rectangle-8-Copy-4" fill="#F4F4F4" sketch:type="MSShapeGroup" x="0" y="0" width="626" height="423"></rect>
+                    <text id="Amsi-Pro-Narw" sketch:type="MSTextLayer" font-family="Amsi Pro Narw" font-size="30.0948617" font-style="condensed" font-weight="normal" fill="#4A4A4A">
+                        <tspan x="47.7338583" y="59.0948617">Amsi Pro Narw</tspan>
+                    </text>
+                    <g id="Regular" transform="translate(48.570079, 99.480237)" font-weight="normal" font-family="Amsi Pro Narw" fill="#4A4A4A" sketch:type="MSTextLayer" font-style="condensed">
+                        <text id="A-a" font-size="30.0948617">
+                            <tspan x="0" y="64.5286561">A a</tspan>
+                        </text>
+                        <text id="P-p" font-size="30.0948617">
+                            <tspan x="99" y="64.5286561">P p</tspan>
+                        </text>
+                        <text id="E-e" font-size="30.0948617">
+                            <tspan x="198" y="64.5286561">E e</tspan>
+                        </text>
+                        <text id="O-o" font-size="30.0948617">
+                            <tspan x="297" y="65">O o</tspan>
+                        </text>
+                        <text id="H-h" font-size="30.0948617">
+                            <tspan x="396.368504" y="65">H h</tspan>
+                        </text>
+                        <text font-size="15.0474308">
+                            <tspan x="0" y="14.7575963">Regular</tspan>
+                        </text>
+                    </g>
+                    <g id="Semi-Bold" transform="translate(47.733858, 204.812253)" font-family="Amsi Pro Narw" fill="#4A4A4A" sketch:type="MSTextLayer">
+                        <text id="T-t" font-size="30.0948617" font-weight="526">
+                            <tspan x="0" y="63.0481102">T t</tspan>
+                        </text>
+                        <text id="Ä-ä" font-size="30.0948617" font-weight="526">
+                            <tspan x="100" y="63.0481102">Ä ä</tspan>
+                        </text>
+                        <text id="M-m" font-size="30.0948617" font-weight="526">
+                            <tspan x="200" y="63.0481102">M m</tspan>
+                        </text>
+                        <text id="R-r" font-size="30.0948617" font-weight="526">
+                            <tspan x="300" y="63">R r</tspan>
+                        </text>
+                        <text id="I-i" font-size="30.0948617" font-weight="526">
+                            <tspan x="399.272441" y="63">I i</tspan>
+                        </text>
+                        <text font-size="15.0474308" font-style="condensed" font-weight="normal">
+                            <tspan x="0" y="14">Semi-Bold</tspan>
+                        </text>
+                    </g>
+                    <g id="Semi-Bold-Copy" transform="translate(48.570079, 309.308300)" font-weight="normal" font-family="Amsi Pro Narw" fill="#4A4A4A" sketch:type="MSTextLayer" font-style="condensed">
+                        <text id="0-1-2-3-4-5-6-7-8-9-" font-size="30.0948617">
+                            <tspan x="0" y="69.0481102">0 1 2 3 4 5 6 7 8 9 ! ? ; . , % €  </tspan>
+                        </text>
+                        <text id="Numbers-and-punctuat" font-size="15.0474308">
+                            <tspan x="0" y="14">Numbers and punctuation</tspan>
+                        </text>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

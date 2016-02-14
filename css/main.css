@@ -147,15 +147,25 @@ PROJECTS
     background-color: #C1E7F1;
 }
 
+.project {
+    display: flex;
+    flex-direction: row;
+}
 .wrapper_projects {
     padding-top: 5%;
-    margin: 0 5%;
+    margin: 0 5%; 
 }
 
 .description {
-    margin-bottom: 40px;
+    margin-bottom: 100px;
     max-width: 400px;
+    margin-right: 40px;
 }
+
+.descr {
+    width: 30%;
+}
+
 
 
 /********************************************
@@ -190,6 +200,19 @@ footer a{
 /********************************************
   Case-Study
 *******************************************/
+
+
+.wrapper_casestudy {
+    
+    padding-top: 5%;
+    margin: 0 5%; 
+    min-width: 600px;
+}
+
+.logos {
+    width: 630px;
+    height: 566.7;
+}
 
 
 /********************************************
