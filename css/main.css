@@ -16,7 +16,7 @@ h2 {
     margin-bottom: 20px;
 }
 
-p, li {
+p, li, td {
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
     font-size: 18px;
@@ -419,3 +419,8 @@ footer a{
     }
      
 }
+    
+/********************************************
+ Transitions
+*******************************************/    
+
